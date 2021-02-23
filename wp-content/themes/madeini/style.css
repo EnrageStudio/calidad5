@@ -1,0 +1,41 @@
+﻿/*
+Theme Name: Madeini
+Author: GMO WP Cloud
+Author URI: https://www.wpcloud.jp/en/
+Description:   Madeini is an upgraded version of Twenty Fourteen WordPress default theme with enhanced custom color and custom background image feature. Enlarged homepage image makes it suitable for photography websites.
+Version: 1.1
+Template:twentyfourteen
+Tags: pink, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url('../twentyfourteen/style.css');
+
+@media screen and (min-width: 1008px) {
+.site-info {
+	max-width: 100%;
+}
+
+#secondary{
+	background-color: rgba(255, 255, 25, 0);
+	width:228px;
+}
+
+.search-box-wrapper, .featured-content{
+	padding-left: 288px;
+}
+.entry-header{
+	filter:alpha(opacity=50);
+	/*-moz-opacity: 0.5;
+	opacity: 0.5;*/
+}
+.primary-navigation a{
+}
+.site-content, .site-main .widecolumn{
+	margin-left:267px;
+}
+
+.main-content{
+	min-height: 22em;
+}
